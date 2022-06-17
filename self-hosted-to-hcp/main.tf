@@ -2,16 +2,14 @@
 # Vault Learn lab: Self-hosted to HCP - Terraform Vault Provider
 #
 # Dev mode Vault server configuration
+# Note: S3 bucket is configured with -backend-config
+# per https://www.terraform.io/language/settings/backends/configuration#partial-configuration
 #------------------------------------------------------------------------
 
 terraform {
-  backend "s3" {
-    bucket     = var.s3_bucket
-    key        = var.s3_key_name
-    kms_key_id = var.s3_key_id
-    encrypt    = true
-    region     = var.s3_region
-  }
+  # backend "s3" {
+  #   encrypt    = true
+  # }
 }
 
 # It is strongly recommended to configure the Vault provider

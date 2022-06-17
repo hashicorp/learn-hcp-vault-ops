@@ -1,0 +1,4 @@
+bucket     = "learn-vault"
+key        = "terraform.tfstate"
+kms_key_id = "c0ff33b4-8e6a-453f-8057-2ca7ff123456"
+region     = "us-east-1"

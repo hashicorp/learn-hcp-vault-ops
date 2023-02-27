@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 #------------------------------------------------------------------------
 # Vault Learn lab: Self-hosted to HCP - admins ACL
 # Example policy: Admin tasks for auth methods and secrets engines

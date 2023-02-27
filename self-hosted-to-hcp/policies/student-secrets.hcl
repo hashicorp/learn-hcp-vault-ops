@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 #------------------------------------------------------------------------
 # Vault Learn lab: Self-hosted to HCP - student ACL
 # Example policy: Permits CRUD operations on kv-v2 under student path
